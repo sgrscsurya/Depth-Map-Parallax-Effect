@@ -8,7 +8,13 @@ function App() {
         <h1>Depth Map Parallax Effect</h1>
       </header>
       <section className="parallax-stage" aria-label="Interactive depth map parallax">
-        <DepthParallax rays={0} light={0} pollen={0} mist={0} autoMotion={false} />
+        <DepthParallax 
+        rays={0} 
+        light={0} 
+        pollen={0} 
+        mist={0} 
+        // autoMotion={false} 
+        />
       </section>
     </main>
   );
